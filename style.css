@@ -1,0 +1,92 @@
+body {
+  height:2000px;
+
+    background: rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .hedlinelist{
+    color:white;
+    display:flex;
+    flex-direction: row;
+    list-style:none;
+    border-radius:25px;
+    border:1px solid #099fff;
+    background-color:#18181B;
+    align-items:center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 #00ffff, 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .j{
+    margin:auto;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+  }
+  .kl:hover{
+    color:red;
+    text-shadow:0 4px 8px 0 red, 0 6px 20px 0 blue;
+  }
+  
+  .toyota{
+    width:80px;
+    height:60px;
+  }
+  .mtavari1{
+    display:flex;
+    width: 800px;
+    border:5px solid blue;
+    padding-right:16px;
+    background-color: white;
+    border-radius:20px 50px 20px 50px;
+  }
+ 
+  
+  .gen1img {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-radius:20px 0 0 50px;
+  }
+  .pirvelicxtili{
+   margin:auto 20px;
+   padding:0 20px 0 20px;
+   border:5px solid white ;
+   border-right:5px solid blue;
+  }
+  .list1 {
+    padding:4px 4px;
+    font-size:15px;
+    font-weight: 500;
+  }
+  .list1:hover{
+    color: red;
+  }
+  .info1{
+    color:white;
+    width: 800px;
+    padding: 0 10px;
+  }
+  .mtavari2{
+    display:flex;
+    height:299px;
+    width: 800px;
+    border:5px solid red;
+    padding-left:16px;
+    background-color: white;
+    border-radius: 50px 20px 50px 20px;
+  }
+  .gen2img{
+    margin-right: -5px;
+    width:500px;
+    height:300px;
+    border-radius:0 20px 50px 0;
+  }
+  .gen2list{
+    margin:auto 38px;
+    padding:0 20px 0 20px;
+    border:5px solid white ;
+    border-left:5px solid red;
+
+  }
